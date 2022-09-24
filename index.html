@@ -125,6 +125,59 @@
     <span>Hello</span>
     <span>Hello</span>
     <hr>
+
+    <!-- forms -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="name-data"
+            placeholder="arif" required>
+        <br>
+        <label for="descriptions">Descriptions:</label>
+        <textarea name="desc-data" id="descriptions" 
+            style="height:50px;resize:none;" 
+            placeholder="example">sajkld</textarea>
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+        <br> 
+        <label for="file">File:</label>
+        <input type="file" id="file">
+        <br>
+        <label for="selection">Selection:</label>
+        <select name="select-data" id="selection">
+            <option value="a">Apple</option>
+            <option value="b">Banana</option>
+            <option value="c">Cherry</option>
+        </select>
+        <br>
+        <input type="radio" value="1" name="fruitType" >
+        <label for="fruitType">Hard skin</label>
+        <br>
+        <input type="radio" value="2" name="fruitType" >
+        <label for="fruitType">Soft skin</label>
+        <br>
+        <input type="radio" value="3" name="fruitType" >
+        <label for="fruitType">Med skin</label>
+        <br>
+        <label for="selection">Selection:</label>
+        <select name="select-data" id="selection" multiple>
+            <option value="a">Apple</option>
+            <option value="b">Banana</option>
+            <option value="c">Cherry</option>
+        </select>
+        <br>
+        <input type="checkbox" >
+        <label>Pungent</label>
+        <br>
+        <input type="checkbox" >
+        <label>Non Dairy</label>
+        <br>
+        <input type="checkbox" >
+        <label>Idk</label>
+        <br>
+        <button>Click me</button>
+        <input type="submit" value="push me">
+    </form>
 </body>
 
 </html>
